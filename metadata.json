@@ -1,0 +1,6 @@
+{
+  "name": "Chefbook",
+  "description": "Free culinary recipe manager, AI recipe importer, interactive hands-free cook mode, weekly meal planner, and smart grocery list.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

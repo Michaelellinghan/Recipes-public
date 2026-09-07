@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #FDFCFB;
+    color: #1A1A1A;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .editorial-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+}
